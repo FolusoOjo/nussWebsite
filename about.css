@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #595959;
+    line-height: 1.7;
+}
+
+html {
+    font-size: 62.5%;
+}
+.aboutnav{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(img/img/about-us/about-hero.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aboutnav p{
+    color: white;
+    font-size: 6rem;
+    font-weight: 540;
+    padding: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.abouttext{
+    color: #1a1a1a;
+    font-size: 2.5rem;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+#story{
+    width: 65rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+#rooms{
+    display: flex;
+    color: #1a1a1a;
+    font-size: 7rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 4rem;
+}
+
+#rooms div{
+    padding: 0 10rem;
+    border-right: #f6f6fa solid 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.font{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #595959;
+    text-transform: uppercase;
+}
+
+
+#manager{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 4rem;
+}
+#message{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    width: 30vw;
+    color: #1a1a1a;
+    padding-right: 3rem;
+}
+#manager img{
+    padding-left: 3rem;
+}
+#muler{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    font-family: 'Jost', sans-serif;
+}
+#general{
+    font-size: 1.6rem;
+    color: #595959;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.aboutstory{
+    display: flex;
+    margin-bottom: 5rem;
+}
+.aboutstory img{
+    height: 75vh;
+    width: 42vw;
+}
+.aboutstory button{
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 0.3rem;
+    margin-top: 2.5rem;
+    padding: 1.5rem 3.2rem;
+    text-transform: uppercase;
+}
+.aboutstory button:hover{
+    background-color: #b95c47;
+}
+.aboutlorem{
+    padding: 0 1.5rem 0 7.5rem;
+    align-self: center;
+}
+#aboutlorem_p1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+#aboutlorem_p2{
+    font-size: 4.2rem;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#aboutlorem_p3{
+    font-size: 1.8rem;
+    color: #595959;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    padding-left: 2rem;
+    width: 50rem;
+    padding-bottom: 3rem;
+}
+.team{
+    margin: 4rem 0;
+}
+
+#team_p1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 1;
+    margin-top: 3rem;
+}
+#team_p2{
+    color: #7a7a7a;
+    font-size: 2rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    word-spacing: 0.2rem;
+    padding-bottom: 5rem;
+
+}
+
+
+.awards{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #f6f6fa;
+    padding: 5.5rem 0;
+}
+
+
+.teamflex{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.teamflex div{
+    padding-left: 3rem;
+}
+.names{
+    color: #1a1a1a;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.roles{
+    color: #5a5a5a;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;
+    color: white;
+}
+.footer div{
+    padding: 0 15rem;
+}
+
+.header{
+    color: white;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.aboutfooter{
+    padding: 0.3rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.connectfooter{
+    padding: 0.3rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+.generalfooter{
+    padding: 0.3rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+.copyright{
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    padding: 4rem 3rem 6rem 19rem;
+    border-top: 1px solid #eee;
+}
